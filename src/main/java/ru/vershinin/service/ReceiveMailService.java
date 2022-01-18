@@ -1,4 +1,4 @@
-package com.huytmb.mail.receiver.service;
+package ru.vershinin.service;
 
 import javax.mail.internet.MimeMessage;
 

@@ -5,17 +5,17 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.2.RELEASE</version>
+        <version>2.5.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.huytmb</groupId>
+    <groupId>ru.vershinin</groupId>
     <artifactId>mail-receiver</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mail-receiver</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo project for mail-receiver</description>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
     </properties>
 
     <dependencies>
@@ -27,6 +27,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
